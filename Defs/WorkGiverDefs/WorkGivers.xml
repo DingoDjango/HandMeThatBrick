@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+	<!-- Added DeliverResources for Haulers -->
+
+	<WorkGiverDef>
+		<defName>HaulDeliverResourcesToFrames</defName>
+		<label>deliver resources to frames (hauler)</label>
+		<giverClass>WorkGiver_ConstructDeliverResourcesToFrames</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>70</priorityInType>
+		<verb>deliver resources to</verb>
+		<gerund>delivering resources to</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>HaulDeliverResourcesToBlueprints</defName>
+		<label>deliver resources to blueprints (hauler)</label>
+		<giverClass>WorkGiver_ConstructDeliverResourcesToBlueprints</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>60</priorityInType>
+		<verb>deliver resources to</verb>
+		<gerund>delivering resources to</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</WorkGivers>

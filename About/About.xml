@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Hand Me That Brick</name>
+	<author>Dingo</author>
+	<url>https://ludeon.com/forums/index.php?topic=26077</url>
+	<targetVersion>0.15.0</targetVersion>
+	<description>This tiny mod helps your builders construct faster. Pawns designated for hauling will now deliver resources to unfinished construction jobs.
+
+Haulers will not actively construct if they are not assigned to construction, of course.</description>
+</ModMetaData>
