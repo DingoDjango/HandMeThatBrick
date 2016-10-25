@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="HMTBUpdateFeatures">
+		<modNameReadable>Hand Me That Brick</modNameReadable>
+		<modIdentifier>HandMeThatBrick</modIdentifier>
+		<linkUrl>https://ludeon.com/forums/index.php?topic=26077.0</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+
+	<HugsLib.UpdateFeatureDef ParentName="HMTBUpdateFeatures">
+		<defName>HMTB_1_0_0</defName>
+		<assemblyVersion>1.0.0</assemblyVersion>
+		<content>Users can toggle hauler behaviour (see Options &gt; Mod Settings).\n\nSetting it off (X) will disable Hand Me That Brick behaviour.\n\nSetting it on (V) will re-enable material delivery serivces for construction jobs.</content>
+	</HugsLib.UpdateFeatureDef>
+
+</Defs>
