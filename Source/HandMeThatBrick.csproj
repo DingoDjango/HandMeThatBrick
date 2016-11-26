@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WorkGiver_HaulDeliverResourcesToBlueprints.cs" />
+    <Compile Include="WorkGiver_HaulDeliverResourcesToFrames.cs" />
     <Compile Include="HandMeThatBrick.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
