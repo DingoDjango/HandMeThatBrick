@@ -50,9 +50,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HMTB_DefOf.cs" />
     <Compile Include="WorkGiver_HaulDeliverResourcesToBlueprints.cs" />
     <Compile Include="WorkGiver_HaulDeliverResourcesToFrames.cs" />
-    <Compile Include="HandMeThatBrick.cs" />
+    <Compile Include="HMTB_Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -7,8 +7,8 @@ namespace HandMeThatBrick
 	{
 		public override bool HasJobOnThing(Pawn pawn, Thing t)
 		{
-            Frame frame = t as Frame;
-            return base.HasJobOnThing(pawn, t) && !frame.MaterialsNeeded().NullOrEmpty();
-        }
+			Frame frame = t as Frame;
+			return base.HasJobOnThing(pawn, t) && !frame.MaterialsNeeded().NullOrEmpty();
+		}
 	}
 }

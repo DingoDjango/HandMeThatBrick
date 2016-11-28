@@ -7,8 +7,12 @@ namespace HandMeThatBrick
 	{
 		public override bool HasJobOnThing(Pawn pawn, Thing t)
 		{
-            Blueprint blueprint = t as Blueprint;
-            return base.HasJobOnThing(pawn, t) && !blueprint.MaterialsNeeded().NullOrEmpty();
-        }
+			Blueprint blueprint = t as Blueprint;
+			if (blueprint is Blueprint_Install)
+			{
+				return base.HasJobOnThing(pawn, t);
+			}
+			return base.HasJobOnThing(pawn, t) && !blueprint.MaterialsNeeded().NullOrEmpty();
+		}
 	}
 }
