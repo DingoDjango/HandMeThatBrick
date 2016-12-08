@@ -1,4 +1,5 @@
 ﻿using HugsLib;
+using Verse;
 
 namespace HandMeThatBrick
 {
@@ -24,9 +25,9 @@ namespace HandMeThatBrick
 
 		private void UpdateDefs()
 		{
-			var toggle = Settings.GetHandle<bool>("HaulersHelpConstruct", "Use haulers for construction", "Any colonist set to hauling will also deliver materials to construction jobs.", true);
-			HMTB_DefOf.HaulDeliverResourcesToFrames.scanThings = toggle.Value;
-			HMTB_DefOf.HaulDeliverResourcesToBlueprints.scanThings = toggle.Value;
+			var haulersConstructionToggle = Settings.GetHandle<bool>("HaulersHelpConstruct", "setting_haulersConstructionToggle_label".Translate(), "setting_haulersConstructionToggle_desc".Translate(), true);
+			HMTB_DefOf.HaulDeliverResourcesToFrames.scanThings = haulersConstructionToggle.Value;
+			HMTB_DefOf.HaulDeliverResourcesToBlueprints.scanThings = haulersConstructionToggle.Value;
 		}
 	}
 }

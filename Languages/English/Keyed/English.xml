@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<setting_haulersConstructionToggle_label>Use haulers for construction</setting_haulersConstructionToggle_label>
+	<setting_haulersConstructionToggle_desc>Any colonist set to hauling will also deliver materials to construction jobs.</setting_haulersConstructionToggle_desc>
+
+</LanguageData>
