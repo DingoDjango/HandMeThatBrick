@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	    <setting_haulersConstructionToggle_label>使用搬运工来建造</setting_haulersConstructionToggle_label>
-	    <setting_haulersConstructionToggle_desc>所有指定搬运工作的居民同样也会把材料运送到工地。</setting_haulersConstructionToggle_desc>
+	<setting_haulersConstructionToggle_label>使用搬运工来建造</setting_haulersConstructionToggle_label>
+	<setting_haulersConstructionToggle_desc>所有指定搬运工作的居民同样也会把材料运送到工地。</setting_haulersConstructionToggle_desc>
 
 </LanguageData>
