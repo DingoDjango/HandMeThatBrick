@@ -3,8 +3,13 @@
 	<name>Hand Me That Brick</name>
 	<author>Dingo</author>
 	<url>https://ludeon.com/forums/index.php?topic=26077</url>
-	<targetVersion>0.15.0</targetVersion>
-	<description>This tiny mod helps your builders construct faster. Pawns designated for hauling will now deliver resources to unfinished construction jobs.
+	<targetVersion>0.16.0</targetVersion>
+	<description>&lt;size=24&gt;Important:&lt;/size&gt;
+This mod requires &lt;b&gt;HugsLib&lt;/b&gt;, it must be installed and loaded above this mod in the load order.
 
-Haulers will not actively construct if they are not assigned to construction, of course.</description>
+
+
+Colonists assigned to Hauling will deliver resources to blueprints and construction frames.
+
+Haulers won't actively construct if they are not assigned to construction.</description>
 </ModMetaData>

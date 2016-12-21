@@ -15,17 +15,17 @@ namespace HandMeThatBrick
 
 		public override void DefsLoaded()
 		{
-			UpdateDefs();
+			HMTBDefs();
 		}
 
 		public override void SettingsChanged()
 		{
-			UpdateDefs();
+			HMTBDefs();
 		}
 
-		private void UpdateDefs()
+		private void HMTBDefs()
 		{
-			var haulersConstructionToggle = Settings.GetHandle<bool>("HaulersHelpConstruct", "setting_haulersConstructionToggle_label".Translate(), "setting_haulersConstructionToggle_desc".Translate(), true);
+			var haulersConstructionToggle = Settings.GetHandle<bool>("HaulersHelpConstruct", "HMTB_setting_haulersConstructionToggle_label".Translate(), "HMTB_setting_haulersConstructionToggle_desc".Translate(), true);
 			HMTB_DefOf.HaulDeliverResourcesToFrames.scanThings = haulersConstructionToggle.Value;
 			HMTB_DefOf.HaulDeliverResourcesToBlueprints.scanThings = haulersConstructionToggle.Value;
 		}

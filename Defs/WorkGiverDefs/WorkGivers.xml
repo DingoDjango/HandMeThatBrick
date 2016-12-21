@@ -8,7 +8,7 @@
 		<label>deliver resources to frames (hauler)</label>
 		<giverClass>HandMeThatBrick.WorkGiver_HaulDeliverResourcesToFrames</giverClass>
 		<workType>Hauling</workType>
-		<priorityInType>70</priorityInType>
+		<priorityInType>46</priorityInType>
 		<verb>deliver resources to</verb>
 		<gerund>delivering resources to</gerund>
 		<requiredCapacities>
@@ -22,7 +22,7 @@
 		<label>deliver resources to blueprints (hauler)</label>
 		<giverClass>HandMeThatBrick.WorkGiver_HaulDeliverResourcesToBlueprints</giverClass>
 		<workType>Hauling</workType>
-		<priorityInType>60</priorityInType>
+		<priorityInType>45</priorityInType>
 		<verb>deliver resources to</verb>
 		<gerund>delivering resources to</gerund>
 		<requiredCapacities>

@@ -8,15 +8,9 @@
 	</HugsLib.UpdateFeatureDef>
 
 	<HugsLib.UpdateFeatureDef ParentName="HMTBUpdateFeatures">
-		<defName>HMTB_1_0_0</defName>
-		<assemblyVersion>1.0.0</assemblyVersion>
-		<content>Users can toggle hauler behaviour (see Options &gt; Mod Settings).\n\nSetting it off (X) will disable Hand Me That Brick behaviour.\n\nSetting it on (V) will re-enable material delivery serivces for construction jobs.</content>
-	</HugsLib.UpdateFeatureDef>
-
-	<HugsLib.UpdateFeatureDef ParentName="HMTBUpdateFeatures">
-		<defName>HMTB_1_1_0</defName>
-		<assemblyVersion>1.1.0</assemblyVersion>
-		<content>\nHand Me That Brick update (November 27th, 2016):\n\nHaulers will no longer assist in constructing buildings that require 0 materials (e.g. graves).</content>
+		<defName>HMTB_1_2_16</defName>
+		<assemblyVersion>1.2.16</assemblyVersion>
+		<content>You can stop haulers from assisting in construction by going into &lt;b&gt;Mod Settings&lt;/b&gt; (accessed through RimWorld's Options menu).</content>
 	</HugsLib.UpdateFeatureDef>
 
 </Defs>
