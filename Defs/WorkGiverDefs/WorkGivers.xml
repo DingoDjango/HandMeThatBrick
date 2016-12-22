@@ -8,7 +8,7 @@
 		<label>deliver resources to frames (hauler)</label>
 		<giverClass>HandMeThatBrick.WorkGiver_HaulDeliverResourcesToFrames</giverClass>
 		<workType>Hauling</workType>
-		<priorityInType>46</priorityInType>
+		<priorityInType>47</priorityInType>
 		<verb>deliver resources to</verb>
 		<gerund>delivering resources to</gerund>
 		<requiredCapacities>
