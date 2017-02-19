@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<HaulDeliverResourcesToFrames.label>доставлять ресурсы для построек (носильщик)</HaulDeliverResourcesToFrames.label>
+	<HaulDeliverResourcesToFrames.verb>доставить ресурсы на</HaulDeliverResourcesToFrames.verb>
+	<HaulDeliverResourcesToFrames.gerund>Доставить ресурсы на</HaulDeliverResourcesToFrames.gerund>
+
+	<HaulDeliverResourcesToBlueprints.label>доставлять ресурсы для проектов (носильщик)</HaulDeliverResourcesToBlueprints.label>
+	<HaulDeliverResourcesToBlueprints.verb>доставить ресурсы на</HaulDeliverResourcesToBlueprints.verb>
+	<HaulDeliverResourcesToBlueprints.gerund>Доставить ресурсы на</HaulDeliverResourcesToBlueprints.gerund>
+
+</LanguageData>
