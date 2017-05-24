@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<HMTB>Hand Me That Brick</HMTB>
+
 	<HMTB_setting_haulersConstructionToggle_label>림들은 건설 작업에 자재를 전달해줄것입니다</HMTB_setting_haulersConstructionToggle_label>
 	<HMTB_setting_haulersConstructionToggle_desc>빠른건축을 위해 건축을 하는림과 운송을 하는림에 구별을 둡니다.</HMTB_setting_haulersConstructionToggle_desc>
 

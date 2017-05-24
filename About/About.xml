@@ -3,12 +3,10 @@
 	<name>Hand Me That Brick</name>
 	<author>Dingo</author>
 	<url>https://ludeon.com/forums/index.php?topic=26077</url>
-	<targetVersion>0.16.0</targetVersion>
-	<description>&lt;color=red&gt;&lt;size=24&gt;Important:&lt;/size&gt;
+	<targetVersion>0.17.0</targetVersion>
+	<description>Colonists assigned to Hauling will deliver resources to blueprints and construction frames.
 
-This mod requires &lt;b&gt;HugsLib&lt;/b&gt;, it must be installed and loaded above this mod in the load order.&lt;/color&gt;
+Haulers won't actively construct if they are not assigned to construction.
 
-Colonists assigned to Hauling will deliver resources to blueprints and construction frames.
-
-Haulers won't actively construct if they are not assigned to construction.</description>
+You may toggle this behaviour by going into &lt;color=orange&gt;Options > Mod Settings&lt;/color&gt;.</description>
 </ModMetaData>

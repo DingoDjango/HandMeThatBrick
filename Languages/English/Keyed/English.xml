@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<HMTB>Hand Me That Brick</HMTB>
+
 	<HMTB_setting_haulersConstructionToggle_label>Use haulers for construction</HMTB_setting_haulersConstructionToggle_label>
 	<HMTB_setting_haulersConstructionToggle_desc>Any colonist set to hauling will also deliver materials to construction jobs.</HMTB_setting_haulersConstructionToggle_desc>
 

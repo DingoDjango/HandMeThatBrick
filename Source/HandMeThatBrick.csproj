@@ -35,10 +35,6 @@
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="HugsLib">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HugsLib\Assemblies\HugsLib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,10 +47,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HMTB_DefOf.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="WorkGiver_HaulDeliverResourcesToBlueprints.cs" />
     <Compile Include="WorkGiver_HaulDeliverResourcesToFrames.cs" />
-    <Compile Include="HMTB_Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
