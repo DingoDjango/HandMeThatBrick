@@ -9,7 +9,7 @@ namespace HandMeThatBrick
 		public override void ExposeData()
 		{
 			base.ExposeData();
-			Scribe_Values.Look(ref EnableHMTB, "PauseHMTB", true);
+			Scribe_Values.Look(ref EnableHMTB, "EnableHMTB", true);
 		}
 	}
 }
