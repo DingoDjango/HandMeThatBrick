@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- DeliverResources work givers for Haulers, only active for buildings with total material cost over 0 -->
+
+  <HaulDeliverResourcesToFrames.label>施工先に資材を提供する(運搬)</HaulDeliverResourcesToFrames.label>
+  <HaulDeliverResourcesToFrames.verb>資材を届ける：</HaulDeliverResourcesToFrames.verb>
+  <HaulDeliverResourcesToFrames.gerund>資材を届けている：</HaulDeliverResourcesToFrames.gerund>
+
+  <HaulDeliverResourcesToBlueprints.label>設計先に資材を提供する(運搬)</HaulDeliverResourcesToBlueprints.label>
+  <HaulDeliverResourcesToBlueprints.verb>資材を届ける：</HaulDeliverResourcesToBlueprints.verb>
+  <HaulDeliverResourcesToBlueprints.gerund>資材を届けている：</HaulDeliverResourcesToBlueprints.gerund>
+
+
+</LanguageData>
