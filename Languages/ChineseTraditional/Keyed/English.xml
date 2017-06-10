@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HMTB>Hand Me That Brick</HMTB>
+
+  <HMTB_setting_haulersConstructionToggle_label>使用搬運工來建造</HMTB_setting_haulersConstructionToggle_label>
+  <HMTB_setting_haulersConstructionToggle_desc>所有指定搬運工作的居民同樣也會把材料運送到工地.</HMTB_setting_haulersConstructionToggle_desc>
+
+</LanguageData>
