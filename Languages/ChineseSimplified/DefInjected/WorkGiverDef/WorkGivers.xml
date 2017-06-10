@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- DeliverResources work givers for Haulers, only active for buildings with total material cost over 0 -->
+
+  <HaulDeliverResourcesToFrames.label>将资源搬到框架 (搬运)</HaulDeliverResourcesToFrames.label>
+  <HaulDeliverResourcesToFrames.verb>搬运资源到</HaulDeliverResourcesToFrames.verb>
+  <HaulDeliverResourcesToFrames.gerund>搬运资源到</HaulDeliverResourcesToFrames.gerund>
+
+  <HaulDeliverResourcesToBlueprints.label>将资源搬到蓝图 (搬运)</HaulDeliverResourcesToBlueprints.label>
+  <HaulDeliverResourcesToBlueprints.verb>搬运资源到</HaulDeliverResourcesToBlueprints.verb>
+  <HaulDeliverResourcesToBlueprints.gerund>搬运资源到</HaulDeliverResourcesToBlueprints.gerund>
+
+
+</LanguageData>
