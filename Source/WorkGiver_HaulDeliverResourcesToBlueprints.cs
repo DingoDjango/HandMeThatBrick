@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace HandMeThatBrick
+namespace HMTB
 {
 	public class WorkGiver_HaulDeliverResourcesToBlueprints : WorkGiver_ConstructDeliverResourcesToBlueprints
 	{
@@ -16,10 +16,10 @@ namespace HandMeThatBrick
 
 			if (blueprint is Blueprint_Install)
 			{
-				return base.HasJobOnThing(pawn, t);
+				return base.HasJobOnThing(pawn, t, forced);
 			}
 
-			return base.HasJobOnThing(pawn, t) && !blueprint.MaterialsNeeded().NullOrEmpty();
+			return !blueprint.MaterialsNeeded().NullOrEmpty() && base.HasJobOnThing(pawn, t, forced);
 		}
 	}
 }

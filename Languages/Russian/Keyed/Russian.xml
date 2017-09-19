@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<HMTB>Hand Me That Brick</HMTB>
-
-	<HMTB_setting_haulersConstructionToggle_label>Использовать носильщиков в строительстве</HMTB_setting_haulersConstructionToggle_label>
-	<HMTB_setting_haulersConstructionToggle_desc>Любой поселенец назначеный на переноску будет также доставлять материалы на места строительства.</HMTB_setting_haulersConstructionToggle_desc>
+	<HMTB_EnableHMTB_Label>Использовать носильщиков в строительстве</HMTB_EnableHMTB_Label>
+	<HMTB_EnableHMTB_Desc>Любой поселенец назначеный на переноску будет также доставлять материалы на места строительства.</HMTB_EnableHMTB_Desc>
 
 </LanguageData>

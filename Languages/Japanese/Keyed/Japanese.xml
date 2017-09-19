@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<HMTB>Hand Me That Brick</HMTB>
-
-	<HMTB_setting_haulersConstructionToggle_label>建設に運搬者を使用する</HMTB_setting_haulersConstructionToggle_label>
-	<HMTB_setting_haulersConstructionToggle_desc>運搬に従事しているどの入植者も建設作業に資源を届けるようになります。</HMTB_setting_haulersConstructionToggle_desc>
+	<HMTB_EnableHMTB_Label>建設に運搬者を使用する</HMTB_EnableHMTB_Label>
+	<HMTB_EnableHMTB_Desc>運搬に従事しているどの入植者も建設作業に資源を届けるようになります。</HMTB_EnableHMTB_Desc>
 
 </LanguageData>

@@ -6,7 +6,7 @@
 	<WorkGiverDef>
 		<defName>HaulDeliverResourcesToFrames</defName>
 		<label>deliver resources to frames (hauler)</label>
-		<giverClass>HandMeThatBrick.WorkGiver_HaulDeliverResourcesToFrames</giverClass>
+		<giverClass>HMTB.WorkGiver_HaulDeliverResourcesToFrames</giverClass>
 		<workType>Hauling</workType>
 		<priorityInType>47</priorityInType>
 		<verb>deliver resources to</verb>
@@ -20,7 +20,7 @@
 	<WorkGiverDef>
 		<defName>HaulDeliverResourcesToBlueprints</defName>
 		<label>deliver resources to blueprints (hauler)</label>
-		<giverClass>HandMeThatBrick.WorkGiver_HaulDeliverResourcesToBlueprints</giverClass>
+		<giverClass>HMTB.WorkGiver_HaulDeliverResourcesToBlueprints</giverClass>
 		<workType>Hauling</workType>
 		<priorityInType>45</priorityInType>
 		<verb>deliver resources to</verb>

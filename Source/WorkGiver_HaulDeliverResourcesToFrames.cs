@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace HandMeThatBrick
+namespace HMTB
 {
 	public class WorkGiver_HaulDeliverResourcesToFrames : WorkGiver_ConstructDeliverResourcesToFrames
 	{
@@ -14,7 +14,7 @@ namespace HandMeThatBrick
 		{
 			Frame frame = t as Frame;
 
-			return base.HasJobOnThing(pawn, t) && !frame.MaterialsNeeded().NullOrEmpty();
+			return !frame.MaterialsNeeded().NullOrEmpty() && base.HasJobOnThing(pawn, t, forced);
 		}
 	}
 }

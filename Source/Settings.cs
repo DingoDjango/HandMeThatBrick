@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace HandMeThatBrick
+namespace HMTB
 {
 	public class Settings : ModSettings
 	{

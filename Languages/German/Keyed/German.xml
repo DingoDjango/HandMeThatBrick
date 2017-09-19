@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<HMTB>Hand Me That Brick</HMTB>
-
-	<HMTB_setting_haulersConstructionToggle_label>Benutze Träger für Bauaufträge</HMTB_setting_haulersConstructionToggle_label>
-	<HMTB_setting_haulersConstructionToggle_desc>Jegliche Kolonisten, die zum Tragen ausgewählt wurden, werden auch Materialien zu Bauaufträgen liefern.</HMTB_setting_haulersConstructionToggle_desc>
+	<HMTB_EnableHMTB_Label>Benutze Träger für Bauaufträge</HMTB_EnableHMTB_Label>
+	<HMTB_EnableHMTB_Desc>Jegliche Kolonisten, die zum Tragen ausgewählt wurden, werden auch Materialien zu Blaupausen liefern.</HMTB_EnableHMTB_Desc>
 
 </LanguageData>
