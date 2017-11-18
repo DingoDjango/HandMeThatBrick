@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using System.Collections.Generic;
+using RimWorld;
 using Verse;
 
 namespace HMTB
@@ -7,7 +8,7 @@ namespace HMTB
 	{
 		public override bool ShouldSkip(Pawn pawn)
 		{
-			return !Settings.EnableHMTB;
+			return !Controller.EnableMod;
 		}
 
 		public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
@@ -20,6 +21,11 @@ namespace HMTB
 			}
 
 			return !blueprint.MaterialsNeeded().NullOrEmpty() && base.HasJobOnThing(pawn, t, forced);
+		}
+
+		public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
+		{
+			return Utilities.WorkThingsOpportunistic(pawn, this.PotentialWorkThingRequest);
 		}
 	}
 }

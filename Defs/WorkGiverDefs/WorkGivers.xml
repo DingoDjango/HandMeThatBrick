@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<WorkGivers>
-
-	<!-- DeliverResources work givers for Haulers, only active for buildings with total material cost over 0 -->
+<Defs>
 
 	<WorkGiverDef>
 		<defName>HaulDeliverResourcesToFrames</defName>
@@ -31,4 +29,4 @@
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 
-</WorkGivers>
+</Defs>

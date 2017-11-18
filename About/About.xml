@@ -3,10 +3,10 @@
 	<name>Hand Me That Brick</name>
 	<author>Dingo</author>
 	<url>https://ludeon.com/forums/index.php?topic=26077</url>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>0.18.0</targetVersion>
 	<description>Colonists assigned to Hauling will deliver resources to blueprints and construction frames.
 
 Haulers won't actively construct if they are not assigned to construction.
 
-You may toggle this behaviour by going into &lt;color=orange&gt;Options > Mod Settings&lt;/color&gt;.</description>
+Mod options can be found in &lt;color=orange&gt;Options > Mod Settings&lt;/color&gt;.</description>
 </ModMetaData>

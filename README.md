@@ -4,4 +4,4 @@ Colonists assigned to Hauling will deliver resources to blueprints and construct
 
 Haulers won't actively construct if they are not assigned to construction.
 
-The mod includes an options menu (**Options > Mod Settings**).
+Mod options can be found in **Options > Mod Settings**.

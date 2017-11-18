@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<HMTB_EnableHMTB_Label>Использовать носильщиков в строительстве</HMTB_EnableHMTB_Label>
-	<HMTB_EnableHMTB_Desc>Любой поселенец назначеный на переноску будет также доставлять материалы на места строительства.</HMTB_EnableHMTB_Desc>
+	<!-- Mod Settings -->
+
+	<HMTB_EnableMod>Использовать носильщиков в строительстве</HMTB_EnableMod>
+
+	<HMTB_OpportunisticMode>Search radius for blueprints/frames</HMTB_OpportunisticMode>
+
+	<!-- Tooltips -->
+
+	<HMTB_Tooltip_EnableMod>Любой поселенец назначеный на переноску будет также доставлять материалы на места строительства.</HMTB_Tooltip_EnableMod>
+
+	<HMTB_Tooltip_OpportunisticMode>How far haulers should look for construction jobs.\n\nUnrestricted: anywhere on the map.\nClose: within 15 tiles.\nMedium: within 45 tiles.\nLong: within 100 tiles.</HMTB_Tooltip_OpportunisticMode>
+
+	<!-- Enum values -->
+
+	<HMTB_Unrestricted>Unrestricted</HMTB_Unrestricted>
+	<HMTB_Close>Close</HMTB_Close>
+	<HMTB_Medium>Medium</HMTB_Medium>
+	<HMTB_Long>Long</HMTB_Long>
 
 </LanguageData>
