@@ -6,7 +6,10 @@ namespace HMTB
 {
 	public class WorkGiver_HaulDeliverResourcesToFrames : WorkGiver_ConstructDeliverResourcesToFrames
 	{
-		public override bool ShouldSkip(Pawn pawn) => !Controller.EnableMod;
+		public override bool ShouldSkip(Pawn pawn)
+		{
+			return !Controller.EnableMod;
+		}
 
 		public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
 		{
