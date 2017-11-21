@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using RimWorld;
+﻿using RimWorld;
 using Verse;
 
 namespace HMTB
@@ -15,17 +14,14 @@ namespace HMTB
 		{
 			Blueprint blueprint = t as Blueprint;
 
-			if (blueprint is Blueprint_Install)
+			if (blueprint == null)
 			{
-				return base.HasJobOnThing(pawn, t, forced);
+				return false;
 			}
 
-			return !blueprint.MaterialsNeeded().NullOrEmpty() && base.HasJobOnThing(pawn, t, forced);
-		}
+			bool materialsAllowed = blueprint is Blueprint_Install ? true : !blueprint.MaterialsNeeded().NullOrEmpty();
 
-		public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
-		{
-			return Utilities.WorkThingsOpportunistic(pawn, this.PotentialWorkThingRequest);
+			return materialsAllowed && Utilities.AllowedHaulDistance(pawn, blueprint) && base.HasJobOnThing(pawn, t, forced);
 		}
 	}
 }

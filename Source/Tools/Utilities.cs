@@ -1,40 +1,34 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Verse;
+﻿using Verse;
 
 namespace HMTB
 {
-	[StaticConstructorOnStartup]
 	public static class Utilities
 	{
-		public static IEnumerable<Thing> WorkThingsOpportunistic(Pawn pawn, ThingRequest request)
+		public static bool AllowedHaulDistance(Pawn pawn, Thing t)
 		{
-			IEnumerable<Thing> allMatchingThings = pawn.Map.listerThings.ThingsMatching(request);
+			OpportunityDistance distance = Controller.OpportunisticMode.Value;
 
-			if (Controller.OpportunisticMode.Value == OpportunityDistance.HMTB_Unrestricted)
+			if (distance == OpportunityDistance.HMTB_Unrestricted)
 			{
-				return allMatchingThings;
+				return true;
 			}
 
-			else
+			float maxSearchDistance;
+
+			switch (distance)
 			{
-				float maxSearchDistance;
-
-				switch (Controller.OpportunisticMode.Value)
-				{
-					case OpportunityDistance.HMTB_Close:
-						maxSearchDistance = 15f;
-						break;
-					case OpportunityDistance.HMTB_Medium:
-						maxSearchDistance = 45f;
-						break;
-					default:
-						maxSearchDistance = 100f; //(Long)
-						break;
-				}
-
-				return allMatchingThings.Where(t => t.Position.DistanceTo(pawn.Position) < maxSearchDistance);
+				case OpportunityDistance.HMTB_Close:
+					maxSearchDistance = 15f; //Close
+					break;
+				case OpportunityDistance.HMTB_Medium:
+					maxSearchDistance = 45f; //Medium
+					break;
+				default:
+					maxSearchDistance = 100f; //Long
+					break;
 			}
+
+			return t.Position.DistanceTo(pawn.Position) <= maxSearchDistance;
 		}
 	}
 }

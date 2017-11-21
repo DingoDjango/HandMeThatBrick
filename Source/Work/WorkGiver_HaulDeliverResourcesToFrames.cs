@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using RimWorld;
+﻿using RimWorld;
 using Verse;
 
 namespace HMTB
@@ -15,12 +14,12 @@ namespace HMTB
 		{
 			Frame frame = t as Frame;
 
-			return !frame.MaterialsNeeded().NullOrEmpty() && base.HasJobOnThing(pawn, t, forced);
-		}
+			if (frame == null)
+			{
+				return false;
+			}
 
-		public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
-		{
-			return Utilities.WorkThingsOpportunistic(pawn, this.PotentialWorkThingRequest);
+			return !frame.MaterialsNeeded().NullOrEmpty() && Utilities.AllowedHaulDistance(pawn, frame) && base.HasJobOnThing(pawn, t, forced);
 		}
 	}
 }
