@@ -3,7 +3,7 @@
 
 	<WorkGiverDef>
 		<defName>HaulDeliverResourcesToFrames</defName>
-		<label>deliver resources to frames (hauler)</label>
+		<label>haul resources to frames</label>
 		<giverClass>HMTB.WorkGiver_HaulDeliverResourcesToFrames</giverClass>
 		<workType>Hauling</workType>
 		<priorityInType>47</priorityInType>
@@ -17,7 +17,7 @@
 
 	<WorkGiverDef>
 		<defName>HaulDeliverResourcesToBlueprints</defName>
-		<label>deliver resources to blueprints (hauler)</label>
+		<label>haul resources to blueprints</label>
 		<giverClass>HMTB.WorkGiver_HaulDeliverResourcesToBlueprints</giverClass>
 		<workType>Hauling</workType>
 		<priorityInType>45</priorityInType>
