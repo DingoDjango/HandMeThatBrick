@@ -38,12 +38,12 @@ namespace HMTB
 
 			Thing firstBlockingThing = GenConstruct.FirstBlockingThing(frame, pawn);
 
-			if (firstBlockingThing != null && firstBlockingThing.def.category == ThingCategory.Item && firstBlockingThing.def.EverHaulable)
+			if (firstBlockingThing != null)
 			{
-				return HaulAIUtility.HaulAsideJobFor(pawn, firstBlockingThing);
+				return Utilities.HandleBlockingThingJob(firstBlockingThing, pawn, forced);
 			}
 
-			if (!Utilities.CanDeliverResources(frame, pawn, firstBlockingThing, forced))
+			if (!Utilities.CanDeliverResources(frame, pawn, forced))
 			{
 				return null;
 			}
