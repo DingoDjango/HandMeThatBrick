@@ -5,7 +5,7 @@
 
 	<HMTB_EnableMod>使用搬运工来建造</HMTB_EnableMod>
 
-	<HMTB_OpportunisticMode>蓝图或工地搜索物品范围Search radius for blueprints/frames</HMTB_OpportunisticMode>
+	<HMTB_OpportunisticMode>蓝图或工地搜索物品范围</HMTB_OpportunisticMode>
 
 	<!-- Tooltips -->
 
@@ -15,7 +15,7 @@
 
 	<!-- Enum values -->
 
-	<HMTB_Unrestricted>无限制d</HMTB_Unrestricted>
+	<HMTB_Unrestricted>无限制</HMTB_Unrestricted>
 	<HMTB_Close>近</HMTB_Close>
 	<HMTB_Medium>中</HMTB_Medium>
 	<HMTB_Long>远</HMTB_Long>
