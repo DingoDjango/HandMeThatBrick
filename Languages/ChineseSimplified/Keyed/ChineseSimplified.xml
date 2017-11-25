@@ -5,19 +5,19 @@
 
 	<HMTB_EnableMod>使用搬运工来建造</HMTB_EnableMod>
 
-	<HMTB_OpportunisticMode>Search radius for blueprints/frames</HMTB_OpportunisticMode>
+	<HMTB_OpportunisticMode>蓝图或工地搜索物品范围Search radius for blueprints/frames</HMTB_OpportunisticMode>
 
 	<!-- Tooltips -->
 
 	<HMTB_Tooltip_EnableMod>所有指定搬运工作的居民同样也会把材料运送到工地。</HMTB_Tooltip_EnableMod>
 
-	<HMTB_Tooltip_OpportunisticMode>How far haulers should look for construction jobs.\n\nUnrestricted: anywhere on the map.\nClose: within 15 tiles.\nMedium: within 45 tiles.\nLong: within 100 tiles.</HMTB_Tooltip_OpportunisticMode>
+	<HMTB_Tooltip_OpportunisticMode>搬运工会从距离建筑任务最远多远处搜寻建材。\n\n无限制意为整个地图的任何地方。\nClose: within 15 tiles.\nMedium: within 45 tiles.\nLong: within 100 tiles.</HMTB_Tooltip_OpportunisticMode>
 
 	<!-- Enum values -->
 
-	<HMTB_Unrestricted>Unrestricted</HMTB_Unrestricted>
-	<HMTB_Close>Close</HMTB_Close>
-	<HMTB_Medium>Medium</HMTB_Medium>
-	<HMTB_Long>Long</HMTB_Long>
+	<HMTB_Unrestricted>无限制d</HMTB_Unrestricted>
+	<HMTB_Close>近</HMTB_Close>
+	<HMTB_Medium>中</HMTB_Medium>
+	<HMTB_Long>远</HMTB_Long>
 
 </LanguageData>
