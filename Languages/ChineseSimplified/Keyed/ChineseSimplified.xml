@@ -11,7 +11,7 @@
 
 	<HMTB_Tooltip_EnableMod>所有指定搬运工作的居民同样也会把材料运送到工地。</HMTB_Tooltip_EnableMod>
 
-	<HMTB_Tooltip_OpportunisticMode>搬运工会从距离建筑任务最远多远处搜寻建材。\n\n无限制意为整个地图的任何地方。\nClose: within 15 tiles.\nMedium: within 45 tiles.\nLong: within 100 tiles.</HMTB_Tooltip_OpportunisticMode>
+	<HMTB_Tooltip_OpportunisticMode>搬运工会从距离建筑任务最远多远处搜寻建材。\n\n无限制：整个地图的任何地方。\n近：15格范围内。\n中：45格范围内。\n远：100格范围内。</HMTB_Tooltip_OpportunisticMode>
 
 	<!-- Enum values -->
 
