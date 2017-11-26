@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <HaulDeliverResourcesToFrames.label>搬运材料至框架</HaulDeliverResourcesToFrames.label>
-  <HaulDeliverResourcesToFrames.verb>运送材料至</HaulDeliverResourcesToFrames.verb>
-  <HaulDeliverResourcesToFrames.gerund>正在运送材料至</HaulDeliverResourcesToFrames.gerund>
+	<HaulDeliverResourcesToFrames.label>搬运材料至框架</HaulDeliverResourcesToFrames.label>
+	<HaulDeliverResourcesToFrames.verb>运送材料至</HaulDeliverResourcesToFrames.verb>
+	<HaulDeliverResourcesToFrames.gerund>正在运送材料至</HaulDeliverResourcesToFrames.gerund>
 
-  <HaulDeliverResourcesToBlueprints.label>搬运材料至蓝图</HaulDeliverResourcesToBlueprints.label>
-  <HaulDeliverResourcesToBlueprints.verb>运送材料至</HaulDeliverResourcesToBlueprints.verb>
-  <HaulDeliverResourcesToBlueprints.gerund>正在运送材料至</HaulDeliverResourcesToBlueprints.gerund>
-
+	<HaulDeliverResourcesToBlueprints.label>搬运材料至蓝图</HaulDeliverResourcesToBlueprints.label>
+	<HaulDeliverResourcesToBlueprints.verb>运送材料至</HaulDeliverResourcesToBlueprints.verb>
+	<HaulDeliverResourcesToBlueprints.gerund>正在运送材料至</HaulDeliverResourcesToBlueprints.gerund>
 
 </LanguageData>

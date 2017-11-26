@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- Mod Settings -->
+	<!-- Mod Settings -->
 
-  <HMTB_EnableMod>在建造中使用搬運工</HMTB_EnableMod>
+	<HMTB_EnableMod>在建造中使用搬運工</HMTB_EnableMod>
 
-  <HMTB_OpportunisticMode>藍圖/框架的搜索半徑</HMTB_OpportunisticMode>
+	<HMTB_OpportunisticMode>藍圖/框架的搜索半徑</HMTB_OpportunisticMode>
 
-  <!-- Tooltips -->
+	<!-- Tooltips -->
 
-  <HMTB_Tooltip_EnableMod>任何設置為搬運公的殖民者都會為建造工作運送材料。</HMTB_Tooltip_EnableMod>
+	<HMTB_Tooltip_EnableMod>任何設置為搬運公的殖民者都會為建造工作運送材料。</HMTB_Tooltip_EnableMod>
 
-  <HMTB_Tooltip_OpportunisticMode>搬運工在建造工作進行搜索的距離。\n\n無限制：地圖上的任何位置。\n近：15格內。\n中：45格內。\n遠：100格內。</HMTB_Tooltip_OpportunisticMode>
+	<HMTB_Tooltip_OpportunisticMode>搬運工在建造工作進行搜索的距離。\n\n無限制：地圖上的任何位置。\n近：15格內。\n中：45格內。\n遠：100格內。</HMTB_Tooltip_OpportunisticMode>
 
-  <!-- Enum values -->
+	<!-- Enum values -->
 
-  <HMTB_Unrestricted>無限制</HMTB_Unrestricted>
-  <HMTB_Close>近</HMTB_Close>
-  <HMTB_Medium>中</HMTB_Medium>
-  <HMTB_Long>遠</HMTB_Long>
+	<HMTB_Unrestricted>無限制</HMTB_Unrestricted>
+	<HMTB_Close>近</HMTB_Close>
+	<HMTB_Medium>中</HMTB_Medium>
+	<HMTB_Long>遠</HMTB_Long>
 
 </LanguageData>
